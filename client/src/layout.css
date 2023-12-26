@@ -1,0 +1,93 @@
+.main{
+    padding: 20px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+}
+.sidebar{
+    background-color: rgb(17, 107, 98);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    height: 100vh;
+    padding: 10px;
+}
+
+
+.content{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.header{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    height: 88%;
+    width: 100%;
+    padding: 15px;
+}
+
+.menu{
+    margin-top: 80px;
+    padding: 0 20px;
+}
+
+.menu-item{
+    margin-top: 30px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+.menu-item i{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin: 0 15px;
+}
+
+.active-menu-item{
+    color: white;
+    background-color: rgb(7, 44, 41);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-action-icon{
+    font-size: 30px;
+    color: black !important;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.anchor{
+    font-size: 14px !important;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .menu{
+        padding: 0 5px;
+    }
+}

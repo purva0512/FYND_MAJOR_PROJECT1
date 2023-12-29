@@ -16,7 +16,7 @@ function ApplyDoctor() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "/api/user/apply-doctor-account",
+        "https://healthi5.onrender.com/api/user/apply-doctor-account",
         {
           ...values,
           userId: user._id,

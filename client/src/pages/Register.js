@@ -13,7 +13,7 @@ function Register() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "http://localhost:5000/api/user/register",
+        "https://healthi5.onrender.com/api/user/register",
         values
       );
       dispatch(hideLoading());
